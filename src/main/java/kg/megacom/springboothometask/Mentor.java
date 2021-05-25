@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope("prototype")
-// Prototype отлично подходит для тестирования, отсюда и название prototype, а не create new или что-то еще,
+// Prototype отлично подходит для тестирования в проектах, отсюда и название prototype, а не create new или что-то еще,
 // описание создания нового экземпляра bean-компонента каждый раз, когда вы запрашиваете его из контейнера Spring.
 // Prototype используется для всех bean-компонентов с сохранением состояния
 
